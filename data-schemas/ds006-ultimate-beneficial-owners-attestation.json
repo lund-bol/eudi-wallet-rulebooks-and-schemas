@@ -110,7 +110,7 @@
                     },
                     "ownership_type": {
                       "description": "The type of ownership held by the UBO (e.g., direct, indirect).",
-                      "type:"string",
+                      "type":"string",
                       "enum": ["direct", "indirect", "both"]
                     },
                     "ownership_percentage": {
@@ -125,7 +125,7 @@
                               "maximum": 100
                             },
                             {
-                              "type:"string",
+                              "type":"string",
                               "enum": ["0-25", "25-50", "50-75","75-100"]
                             }
                           ]
